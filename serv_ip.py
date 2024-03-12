@@ -24,9 +24,9 @@ async def on_message(message):
 
 os.system('screen -dm bash -c "sleep 5;cd /home/prakhar6/mine_serv/server_1.17;./start.sh;sleep 15; exec sh"')
 
-tok = 'MTIxNjYxOTE2NTI4NTIyNDUxOA.GG-ims.NVIn2YBmqPo6VPgFeZ32nctSqyUYvhxGL4bN8o'
+tok = "Place your token here "
 
-ngrok.set_auth_token('2B3qSTbsHPpPeMDl4q83uAV0CML_2BYT3LkKxanKduXYNhtg7')
+ngrok.set_auth_token('Set your token here')
 
 listener = ngrok.forward(25565, "tcp")
 
